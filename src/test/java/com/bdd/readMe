@@ -1,0 +1,45 @@
+Pourquoi utiliser BDD avec Cucumber ?
+BDD (Behavior-Driven Development, ou Développement Dirigé par le Comportement)
+-> est une approche de développement logiciel qui améliore la collaboration
+        -> entre les développeurs,
+        -> les testeurs et
+        -> les parties prenantes du projet.
+
+Cucumber est un outil populaire utilisé pour implémenter BDD grâce à un langage compréhensible par tous.
+
+Avantages de Cucumber en BDD :
+1️⃣ Un langage clair et naturel (Syntaxe Gherkin)
+Cucumber utilise le langage Gherkin, qui permet d'écrire des tests sous forme de scénarios en langage naturel.
+
+✅ Exemple en français :
+
+gherkin
+Copier
+Modifier
+Fonctionnalité: Connexion à l'application
+
+  Scénario: Connexion réussie
+    Étant donné que l'utilisateur est sur la page de connexion
+    Quand il saisit des identifiants valides
+    Alors il est redirigé vers son tableau de bord
+👉 Cela permet aux équipes non techniques (chefs de projet, testeurs, clients) de comprendre les tests facilement.
+
+2️⃣ Meilleure collaboration entre équipes
+Permet aux développeurs, testeurs et métiers (Product Owner, Business Analyst) de travailler ensemble.
+Réduit les malentendus sur les exigences du projet.
+
+3️⃣ Automatisation des tests fonctionnels
+Cucumber s’intègre avec des frameworks comme Selenium, JUnit, TestNG.
+Permet de tester si l'application respecte les exigences métier.
+
+4️⃣ Supporte plusieurs langages
+Cucumber peut être utilisé avec Java, JavaScript, Python, Ruby, etc.
+
+5️⃣ Tests = Documentation vivante
+Les scénarios écrits en Gherkin servent de documentation toujours à jour.
+Facile à maintenir et comprendre.
+
+📌 Résumé :
+✅ Cucumber + BDD facilitent la collaboration et la compréhension des tests.
+✅ Gherkin permet d’écrire des tests lisibles par tous.
+✅ Automatisation des tests pour assurer la qualité du logiciel.
