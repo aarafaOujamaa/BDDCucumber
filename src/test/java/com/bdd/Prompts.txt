@@ -1,0 +1,60 @@
+### Commit Message Generator (Based on JIRA Ticket)
+Ask me for the JIRA ticket number. Then, analyze my changes and generate a structured commit message in this format:
+[JIRA-XXXX] Brief Summary
+
+Ensure the message is concise, describes key modifications, and follows best practices for commit messages. Include bullet points summarizing major changes.
+
+---
+
+### Code Review & Suggestions
+Analyze my recent code changes for best practices, performance issues, potential bugs, and style inconsistencies.
+
+Provide:
+- A summary of detected issues.
+- Suggestions for improvement with explanations.
+- Code snippets showing before/after corrections if needed.
+
+---
+
+### Refactor Code for Readability & Performance
+Refactor my code to improve readability, maintainability, and performance without changing functionality.
+
+- Use clear variable and function names.
+- Remove redundant code.
+- Apply best coding practices.
+- Optimize loops and conditionals where possible.
+
+Provide the improved version of the code.
+
+---
+
+### Generate Unit Tests
+Generate JUnit test cases for my recent changes, ensuring proper coverage.
+
+- Include edge cases.
+- Use mocks for dependencies where needed.
+- Follow naming conventions for test methods.
+- Ensure assertions properly validate expected behavior.
+
+Provide the complete test code.
+
+---
+
+### Explain Code & Concepts
+Explain the selected code in simple terms.
+
+- Break it down step by step.
+- Highlight potential issues or inefficiencies.
+- Suggest improvements if applicable.
+
+---
+
+### Detect Security Issues
+Analyze my code for security vulnerabilities, including:
+- SQL Injection
+- XSS
+- Hardcoded credentials
+- Improper authentication handling
+
+Provide detailed explanations of risks and suggest secure alternatives.
+
