@@ -14,8 +14,7 @@ Cucumber utilise le langage Gherkin, qui permet d'écrire des tests sous forme d
 ✅ Exemple en français :
 
 gherkin
-Copier
-Modifier
+
 Fonctionnalité: Connexion à l'application
 
   Scénario: Connexion réussie
