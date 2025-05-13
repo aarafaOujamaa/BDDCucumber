@@ -1,4 +1,5 @@
 case : with call API
+ref:https://github.com/Ragin-LundF/bbd-cucumber-gherkin-lib/blob/main/src/test/resources/features/path_manipulation/path_manipulation.feature
 Feature: Multiple resources
 
   Background: 
